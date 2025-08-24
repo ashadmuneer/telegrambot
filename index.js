@@ -138,7 +138,7 @@ connectMongo();
 // Start command with main menu
 bot.start((ctx) => {
   ctx.reply(
-    'Hi! I\'m Ashad Muneer\'s freelancing bot. How can I help?\n\nI specialize in AI Automation, Chatbots, Web Dev, UI/UX, and Workflow Automation.\nPursuing B.Tech in CSE (expected grad: July 2025, CGPA: 7.32).\n\nSelect an option:',
+    'Hi! I’m Ashad Muneer’s freelancing bot. I help businesses grow with AI automation, chatbots, and smart workflows. Need a stunning website? I create fast, responsive sites that engage users. Looking for better user experience? My UI/UX designs simplify interactions. From automating tasks to building custom solutions, I make your work easier. Let’s create something impactful together!\n\nSelect an option:',
     Markup.inlineKeyboard([
       [Markup.button.callback('AI Automation', 'service_AI Automation')],
       [Markup.button.callback('Chatbot Development', 'service_Chatbot Development')],
